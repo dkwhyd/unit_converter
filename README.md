@@ -1,16 +1,16 @@
-# unit_converter
+# Unit Converter
 
-A new Flutter project.
+> A simple unit converter
 
-## Getting Started
+## How to Run
+1. Clone the repository
+2. Navigate to the `unit_converter` directory
+3. Run `flutter run`
+4. Choose your desired platform
 
-This project is a starting point for a Flutter application.
+## How to Build for Android
+- Build the APK: `flutter build apk`
+- For a specific architecture, e.g., arm64: `flutter build apk --analyze-size --target-platform=android-arm64`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Build for iOS
+- Build the AAR: `flutter build aar`
